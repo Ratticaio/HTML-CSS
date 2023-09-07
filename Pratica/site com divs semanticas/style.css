@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+   margin: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+   color: darkred;
+   text-indent: 8px;
+
+}
+
+h3{
+   color: orange;
+   text-indent: 8px;
+
+}
+
+header{
+   margin-top: 10px;
+}
+
+header > h1 {
+   background-color: #008000;
+   padding: 15px 0px;
+   text-align: center;
+   color: white;
+}
+
+main{
+   margin: 10px;
+}
+
+nav > a{
+   padding-right: 5px;
+   margin-left: 10px;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+section{
+   background-color: lightgray;
+}
+
+#histlaliga{
+   background-color: rgb(172, 172, 172);
+   padding: 2px 30px;
+}
+
+footer{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 1px;
+}

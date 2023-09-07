@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body {
+   background-color: #454d6b;
+}
+
+main {
+   background-color: #353b50;
+   padding: 40px;
+   padding-top: 25px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 20px;
+}
+
+h1, h2, h4, p {
+   color: #a3afbe;
+}
+
+h1 {
+   padding-bottom: 3px;
+   border-bottom: 2px solid;
+   width: max-content;
+   color: #D6D7DC;
+}
+
+h4 {
+   text-align: center;
+   font-weight: normal;
+}
+
+h3 {
+   color: #a3afbe;
+   background-color: #a63c63;
+   border-radius: 30px;
+   padding: 11px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: normal;
+   font-size: 1em;
+}
+
+p {
+   font-style: normal;
+   line-height: 1px;
+   font-size: 18px;
+}
+
+.user-input, .passwd-input {
+   border: none ;
+   outline: none;
+   font-size: 16px;
+   color: #a3afbe;
+   background-color: transparent;
+   border-bottom:  1.5px solid;
+   width: 380px;
+   border-color: #d5d5d5;
+}
+
+br{
+   display: block;
+   line-height:20px;
+   margin: 40px 0;
+   content: " ";
+}
+
+#mostrarSenha {
+   background-color: transparent; /* Define o fundo como transparente */
+   border: 0px solid #ccc; /* Adicione uma borda para visualização */
+   padding: 10px 190px; /* Adicione preenchimento para espaçamento interno */
+   cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+   color: #a3afbe;
+   margin: 0 auto; /* Alinha horizontalmente o botão */
+}

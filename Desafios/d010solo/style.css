@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cantarell:wght@700&display=swap');
+@font-face {
+   font-family: Idroid;
+   src: url(fontes/idroid.otf);
+}
+
+* {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   margin: auto;
+   background-color: rgba(161, 233, 179, 0.63);
+}
+
+header {
+   margin: 0px -100px;
+   padding: 30px 0px 0px 10px;
+   background-image: linear-gradient(to top, #02693e, #06f08e);
+   color: white;
+}
+
+header > h1, p {
+   text-align: center;
+   text-shadow: #02693e;
+}
+
+header > h1{
+font-family: 'Bebas Neue', sans-serif;
+font-size: 3em;
+}
+
+
+nav {
+   padding-bottom: 10px;
+}
+
+nav > a {
+   font-size: bolder;
+   text-align: left;
+   margin: 10px;
+   text-decoration: none;
+   color: #9fbbaf;
+   font-weight: bold;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+nav > a:hover {
+   background-color: #8fc9b0;
+   color: #02693e;
+}
+
+main{
+   max-width: 1000px;
+   padding: 20px;
+   margin: auto;
+   background-color: white;
+   padding: 20px;
+   margin-bottom: 20px;
+
+}
+
+main > h1,h2 {
+   font-family: Idroid;
+   color: #02693e;
+}
+
+main > h2{
+   background-image: linear-gradient(to right, #3de69f4f, white);
+   text-indent: 8px;
+}
+
+main > p{
+   text-align: justify;
+   text-indent: 25px;
+}
+
+#video{
+   background-color: #02693e;
+}
+
+#extra{
+   border-radius: 10px;
+   background-color: #a1eccdbe;
+}
+
+#extra > h3{
+   padding: 5px;
+   color: white;
+   border-radius: 10px 10px 0px 0px;
+   background-color: #02693e;
+}
+
+span{
+   color: #02995a;
+   font-weight: bold;
+}
+
+a{
+   color: #017a48;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.emoji::after{
+  content: '🔗';
+}
+
+.emoji:hover{
+   text-decoration: underline #02693e;
+}
+
+
+main img{
+   width: 100%;
+   display: block;
+   margin: auto;
+}
+
+.man{
+   max-width: 350px;
+}
+
+footer{
+   color: white;
+   background-color: #02693e;
+   margin: 0px -100px;
+   text-align: center;
+   padding: 6px;
+}
+
+main ul{
+   columns: 2;
+   list-style-type: '\2714\00a0\00a0';
+   list-style-position: inside;
+}

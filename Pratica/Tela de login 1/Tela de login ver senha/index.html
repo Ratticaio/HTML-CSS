@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <title>tela de login</title>
+   </head>
+   <body>
+      <main>
+         <h1>Login</h1>
+         <br>
+         <p>Usuário</p>
+         <input type="text" class="user-input" autocomplete="off" />
+         <br>
+         <p>Senha</p>
+         <input type="password" class="passwd-input" autocomplete="off" id="senha" name="senha"/>
+         <button id="mostrarSenha">
+            <i class="fas fa-eye"></i> 
+        </button>
+         <h3>login</h3>
+         <h4>Esqueceu a senha?</h4>
+      </main>
+      <script>
+         const mostrarSenhaButton = document.getElementById("mostrarSenha");
+         const senhaInput = document.getElementById("senha");
+         const eyeIcon = mostrarSenhaButton.querySelector("i");
+ 
+         mostrarSenhaButton.addEventListener("click", function () {
+             if (senhaInput.type === "password") {
+                 senhaInput.type = "text";
+                 eyeIcon.classList.remove("fa-eye");
+                 eyeIcon.classList.add("fa-eye-slash");
+             } else {
+                 senhaInput.type = "password";
+                 eyeIcon.classList.remove("fa-eye-slash");
+                 eyeIcon.classList.add("fa-eye");
+             }
+         });
+     </script>
+   </body>
+</html>
